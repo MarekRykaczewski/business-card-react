@@ -6,7 +6,7 @@ export default function Header() {
             <h1>Marek Rykaczewski</h1>
             <h3>Frontend Developer</h3>
             <h4>marekrykaczewski.website</h4>
-            <div>
+            <div className='header--buttons'>
                 <button>Email</button>
                 <button>LinkedIn</button>
             </div>

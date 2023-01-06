@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
     return (
-        <main>
+        <main className='main'>
             <h2>About</h2>
             <p> Lorem, ipsum dolor sit amet consectetur 
                 adipisicing elit. Fugit quis sint tenetur 

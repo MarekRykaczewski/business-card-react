@@ -48,3 +48,23 @@ body {
 .header > h4 {
   font-weight: 300;
 }
+
+.header--buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px 20px 0px 20px;
+}
+
+.header--buttons > button {
+  background-color: white;
+  border-radius: 6px;
+  border-width: 0;
+  line-height: 0;
+  width: 100px;
+  height: 35px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
