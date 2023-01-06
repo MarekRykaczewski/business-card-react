@@ -1,7 +1,8 @@
 import React from 'react'
+import HeadImage from '../assets/headshot.jpg'
 
 export default function Headshot() {
     return (
-        <img src="./assets/headshot.png" />
+        <img className='headshot' src={HeadImage} />
     )
 }
