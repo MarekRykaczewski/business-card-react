@@ -1,12 +1,16 @@
 import React from 'react'
+import FacebookImg from '../assets/facebook.png'
+import TwitterImg from '../assets/twitter.png'
+import LinkedinImg from '../assets/linkedin.png'
+import YoutubeImg from '../assets/youtube.png'
 
 export default function Footer() {
     return (
-        <footer>
-            <img src="./assets/twitter.png" />
-            <img src="./assets/facebook.png" />
-            <img src="./assets/instagram.png" />
-            <img src="./assets/github.png" />
+        <footer className='footer'>
+            <img src={TwitterImg} />
+            <img src={FacebookImg} />
+            <img src={LinkedinImg} />
+            <img src={YoutubeImg} />
         </footer>
     )
 }
